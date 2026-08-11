@@ -1183,3 +1183,71 @@ img {
     }
 
 }
+/* ================= MOBILE MENU FIX ================= */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        position: relative;
+    }
+
+    /* Hamburger button */
+    .menu-toggle {
+        display: block !important;
+        background: none;
+        border: none;
+        font-size: 32px;
+        line-height: 1;
+        color: #172033;
+        cursor: pointer;
+        padding: 8px;
+        margin-left: auto;
+        z-index: 1001;
+    }
+
+    /* Mobile navigation */
+    .nav-menu {
+        display: none !important;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+        overflow-y: auto;
+        background: #ffffff;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+        padding: 10px 24px;
+        box-sizing: border-box;
+        border-top: 1px solid #e5e7eb;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+        z-index: 1000;
+    }
+
+    /* When menu is open */
+    .nav-menu.active {
+        display: flex !important;
+    }
+
+    .nav-menu a {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 14px 8px;
+        font-size: 18px;
+    }
+
+}
+
+
+/* ================= DESKTOP ================= */
+
+@media (min-width: 769px) {
+
+    .menu-toggle {
+        display: none !important;
+    }
+
+}
