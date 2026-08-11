@@ -2,144 +2,494 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>My Tech Blog</title>
+    <title>Techverse | AI, Technology & Programming Explained Simply</title>
+
+    <meta name="description"
+        content="Techverse explains Artificial Intelligence, technology and programming through simple, practical and easy-to-understand articles and guides.">
+
+    <meta name="author" content="Techverse">
+
+    <meta name="robots" content="index, follow">
+
+    <link rel="canonical"
+        href="https://yourdomain.com/">
+
+    <!-- Open Graph -->
+
+    <meta property="og:title"
+        content="Techverse | AI, Technology & Programming">
+
+    <meta property="og:description"
+        content="Simple and practical explanations of AI, technology and programming for everyone.">
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:url"
+        content="https://yourdomain.com/">
+
+    <meta property="og:site_name" content="Techverse">
+
+    <meta property="og:image"
+        content="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80">
 
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 
 <body>
 
-    <!-- Header -->
-    <header>
+    <!-- ================= HEADER ================= -->
+
+    <header class="site-header">
+
         <div class="container navbar">
 
-            <div class="logo">
-                My Tech Blog
-            </div>
+            <a href="index.html" class="logo">
 
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">AI</a>
-                <a href="#">Technology</a>
-                <a href="#">Programming</a>
-                <a href="#">About</a>
-            </nav>
+                <span class="logo-icon">⚡</span>
+
+                Tech<span>verse</span>
+
+            </a>
+
+
+           <nav class="nav-menu">
+
+    <a href="index.html" class="active">
+        Home
+    </a>
+
+    <a href="categories/ai.html">
+        AI
+    </a>
+
+    <a href="categories/technology.html">
+        Technology
+    </a>
+
+    <a href="categories/programming.html">
+        Programming
+    </a>
+
+    <a href="about.html">
+    About
+</a>
+
+</nav>
 
         </div>
+
     </header>
 
 
-    <!-- Hero Section -->
-    <section class="hero">
 
-        <h1>Welcome to My Tech Blog</h1>
+    <!-- ================= HERO ================= -->
 
-        <p>
-            Technology, AI, Programming and the Digital World.
-        </p>
+    <main>
 
-    </section>
+        <section class="hero">
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <span class="hero-badge">
+                        🚀 Explore the Digital World
+                    </span>
+
+                    <h1>
+                        Understand
+                        <span>Technology.</span>
+                        <br>
+                        Without the Complexity.
+                    </h1>
+
+                    <p>
+                        Simple and practical articles about
+                        Artificial Intelligence, Technology,
+                        Programming and the digital world.
+                    </p>
 
 
-    <!-- Blog Posts -->
-    <section class="blog-section">
+                    <div class="hero-buttons">
 
-        <div class="container">
+                        <a href="#articles" class="primary-btn">
+                            Explore Articles →
+                        </a>
 
-            <h2>Latest Articles</h2>
-
-            <div class="blog-grid">
-
-                <!-- Blog 1 -->
-                <article class="blog-card">
-
-                    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&q=80"
-                        alt="Artificial Intelligence">
-
-                    <div class="blog-content">
-
-                        <h3>What is Artificial Intelligence?</h3>
-
-                        <p>
-                            Learn what AI is, how it works and how
-                            artificial intelligence is changing the world.
-                        </p>
-
-                        <a href="posts/ai.html" class="read-more">
-                            Read More →
+                        <a href="#categories" class="secondary-btn">
+                            Explore Topics
                         </a>
 
                     </div>
 
-                </article>
+                </div>
 
 
-                <!-- Blog 2 -->
-                <article class="blog-card">
+                <div class="hero-visual">
 
-                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80"
-                        alt="Technology">
+                    <div class="tech-orbit">
 
-                    <div class="blog-content">
+                        <div class="orbit-circle"></div>
 
-                        <h3>Latest Technology Trends</h3>
-
-                        <p>
-                            Discover the latest technology trends
-                            that are shaping our digital future.
-                        </p>
-
-                        <a href="posts/technology.html" class="read-more">
-                            Read More →
-                        </a>
+                        <div class="tech-symbol">
+                            &lt;/&gt;
+                        </div>
 
                     </div>
 
-                </article>
+                </div>
+
+            </div>
+
+        </section>
 
 
-                <!-- Blog 3 -->
-                <article class="blog-card">
 
-                    <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=800&q=80"
-                        alt="Programming">
+        <!-- ================= CATEGORIES ================= -->
 
-                    <div class="blog-content">
+        <section class="categories" id="categories">
 
-                        <h3>Learn Programming</h3>
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        CATEGORIES
+                    </span>
+
+                    <h2>
+                        Explore Technology Topics
+                    </h2>
+
+                    <p>
+                        Choose a topic and start learning.
+                    </p>
+
+                </div>
+
+
+                <div class="category-grid">
+
+
+                    <!-- AI -->
+
+                    <a href="#" class="category-card">
+
+                        <div class="category-icon">
+                            🤖
+                        </div>
+
+                        <h3>
+                            Artificial Intelligence
+                        </h3>
 
                         <p>
-                            Beginner-friendly programming guides,
-                            tips and useful coding resources.
+                            AI, machine learning and
+                            generative AI.
                         </p>
 
-                        <a href="posts/programming.html" class="read-more">
-                            Read More →
-                        </a>
+                    </a>
+
+
+
+                    <!-- Technology -->
+
+                    <a href="#" class="category-card">
+
+                        <div class="category-icon">
+                            💻
+                        </div>
+
+                        <h3>
+                            Technology
+                        </h3>
+
+                        <p>
+                            Latest technology, gadgets
+                            and innovation.
+                        </p>
+
+                    </a>
+
+
+
+                    <!-- Programming -->
+
+                    <a href="#" class="category-card">
+
+                        <div class="category-icon">
+                            &lt;/&gt;
+                        </div>
+
+                        <h3>
+                            Programming
+                        </h3>
+
+                        <p>
+                            Coding tutorials and
+                            programming guides.
+                        </p>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ================= ARTICLES ================= -->
+
+        <section class="blog-section" id="articles">
+
+            <div class="container">
+
+                <div class="section-heading articles-heading">
+
+                    <div>
+
+                        <span class="section-label">
+                            LATEST ARTICLES
+                        </span>
+
+                        <h2>
+                            Learn Something New
+                        </h2>
 
                     </div>
 
-                </article>
+
+                    <a href="#" class="view-all">
+                        View All →
+                    </a>
+
+                </div>
+
+
+
+                <div class="blog-grid">
+
+
+                    <!-- ================= ARTICLE 1 ================= -->
+
+                    <article class="blog-card">
+
+                        <div class="blog-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=900&q=80"
+                                alt="Artificial Intelligence">
+
+                            <span class="article-category">
+                                AI
+                            </span>
+
+                        </div>
+
+
+                        <div class="blog-content">
+
+                            <span class="article-meta">
+                                AI • 5 min read
+                            </span>
+
+                            <h3>
+                                What is Artificial Intelligence?
+                            </h3>
+
+                            <p>
+                                Learn what AI is, how it works
+                                and how artificial intelligence
+                                is changing the world.
+                            </p>
+
+
+                            <a href="posts/ai.html"
+                                class="read-more">
+                                Read Article →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- ================= ARTICLE 2 ================= -->
+
+                    <article class="blog-card">
+
+                        <div class="blog-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80"
+                                alt="Modern Technology">
+
+                            <span class="article-category">
+                                Technology
+                            </span>
+
+                        </div>
+
+
+                        <div class="blog-content">
+
+                            <span class="article-meta">
+                                Technology • 6 min read
+                            </span>
+
+                            <h3>
+                                Latest Technology Trends
+                            </h3>
+
+                            <p>
+                                Discover the latest technology
+                                trends that are shaping our
+                                digital future.
+                            </p>
+
+
+                            <a href="posts/technology.html"
+                                class="read-more">
+                                Read Article →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- ================= ARTICLE 3 ================= -->
+
+                    <article class="blog-card">
+
+                        <div class="blog-image">
+
+                            <img
+                                src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=900&q=80"
+                                alt="Programming">
+
+                            <span class="article-category">
+                                Programming
+                            </span>
+
+                        </div>
+
+
+                        <div class="blog-content">
+
+                            <span class="article-meta">
+                                Programming • 7 min read
+                            </span>
+
+                            <h3>
+                                Learn Programming
+                            </h3>
+
+                            <p>
+                                Beginner-friendly programming
+                                guides, tips and useful coding
+                                resources.
+                            </p>
+
+
+                            <a href="posts/programming.html"
+                                class="read-more">
+                                Read Article →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="site-footer">
+
+        <div class="container footer-content">
+
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="logo">
+
+                    <span class="logo-icon">
+                        ⚡
+                    </span>
+
+                    Tech<span>verse</span>
+
+                </a>
+
+
+                <p>
+                    Simple technology knowledge
+                    for everyone.
+                </p>
+
+            </div>
+
+
+
+            <div class="footer-links">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="about.html">
+    About
+</a>
+
+               <a href="contact.html">
+    Contact
+</a>
+
+<a href="privacy.html">
+    Privacy
+</a>
+<a href="disclaimer.html">
+    Disclaimer
+</a>
 
             </div>
 
         </div>
 
-    </section>
 
 
-    <!-- Footer -->
-    <footer>
+        <div class="footer-bottom">
 
-        <p>
-            © 2026 My Tech Blog. All Rights Reserved.
-        </p>
+            <p>
+                © 2026 Techverse. All Rights Reserved.
+            </p>
+
+        </div>
 
     </footer>
+
 
 </body>
 
