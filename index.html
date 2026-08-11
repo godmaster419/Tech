@@ -58,7 +58,9 @@
 
             </a>
 
-
+<button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">
+    ☰
+</button>
            <nav class="nav-menu">
 
     <a href="index.html" class="active">
@@ -490,7 +492,18 @@
 
     </footer>
 
+<script>
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navMenu = document.querySelector(".nav-menu");
 
+    menuToggle.addEventListener("click", function () {
+        navMenu.classList.toggle("active");
+
+        const isOpen = navMenu.classList.contains("active");
+        menuToggle.setAttribute("aria-expanded", isOpen);
+        menuToggle.textContent = isOpen ? "✕" : "☰";
+    });
+</script>
 </body>
 
 </html>
