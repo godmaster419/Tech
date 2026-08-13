@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://godmaster419.github.io/Tech/sitemap.xml
+Sitemap: https://godmaster419.github.io/Tech/sitemap.xml 
